@@ -1,0 +1,89 @@
+.wrapper-Allform {
+    background-color: #77BFE2;
+    display: flex;
+    height: 350px;
+    width: 240px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#changePass {
+    color: #E67235;
+
+}
+
+[name="password"] {
+    border-radius: 5px;
+    padding: 3px;
+    border: 0;
+
+}
+
+[name="username"] {
+    border-radius: 5px;
+    padding: 3px;
+    border: 0;
+
+}
+
+.main-container {
+    background-image: url("/assets/img/background/bg1.png");
+    background-color: #36A1D4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#logoUser {
+    font-size: 50px;
+    margin: 5px;
+}
+
+.vl {
+    border-left: 6px solid #FCE786;
+    height: 500px;
+}
+
+.button {
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: #FCE786;
+    color: #E67235;
+    border: 0;
+}
+
+.img-school {
+    background-image: url(../assets/img/android-chrome-512x512.png);
+    height: 500px;
+    width: 500px;
+}
+
+.warn {
+    color: red;
+}

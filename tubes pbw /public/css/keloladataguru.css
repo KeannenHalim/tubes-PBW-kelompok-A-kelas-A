@@ -1,0 +1,156 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+.menu{
+    text-decoration: none;
+}
+
+.container-menu{
+    background-color: #FCE786;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.menu-wrapper{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-container{
+    background-color:#E67235 ;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-container{
+    background-color: #77BFE2;
+    height: 70%;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    row-gap: 30%;
+}
+
+.data{
+    text-decoration: none;
+    color: #E67235;
+}
+
+.data-wrapper{
+    background-color: #FCE786;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.data-container1{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.data-container2{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+#btn-logout {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.box{
+    background-color: #77BFE2;
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-wrapper{
+    display: flex;
+    column-gap: 20px;
+}
+
+.ket{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.but{
+    background-color: #FCE786;
+    color: #E67235;
+    padding: 5px;
+    border: 0;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.u-nameGuru{
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.judul{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 200px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.in{
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.sub{
+    margin-top: 100px;
+}
+
+.template{
+    text-decoration: none;
+    color: red;
+}

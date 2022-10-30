@@ -1,0 +1,66 @@
+.container {
+    background-image: url("/assets/img/background/bg1.png");
+    max-width: 1000px;
+    width: 80vw;
+    height: 70vh;
+    background-color: #36a1d4;
+    margin-top: 10vh;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+header {
+    padding: 5px 10px;
+    max-height: 200px;
+    display: grid;
+    justify-content: center;
+}
+
+main {
+    min-height: 35vh;
+}
+
+.container-main {
+    display: grid;
+    justify-content: center;
+    background-color: #1980af;
+    opacity: 0.8;
+    margin-top: -5vh;
+    border-radius: 25px;
+}
+
+.container-main p {
+    font-size: 24pt;
+    text-align: center;
+}
+
+.container-main form {
+    display: grid;
+    justify-content: center;
+
+}
+
+.container-main form img {
+    width: 150px;
+
+}
+
+.container-main input {
+    border-radius: 25px;
+}
+
+#nis_tf {
+    width: 40vw;
+    color: black;
+    padding: 5px 10px;
+}
+
+#submit_btn {
+    margin-left: 10vw;
+    width: 20vw;
+    background-color: #FCE786;
+    color: #E67235;
+    padding: 5px 10px;
+
+}

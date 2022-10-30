@@ -1,0 +1,19 @@
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+.btnBack {
+  text-decoration: none;
+  background-color: #fce786;
+  color: #e67235;
+  display: block;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 5px 10px;
+}

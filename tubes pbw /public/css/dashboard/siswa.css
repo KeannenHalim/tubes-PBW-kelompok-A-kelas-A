@@ -1,0 +1,160 @@
+nav {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 5vh;
+}
+
+.container {
+    padding: 15px 10px;
+    margin-top: 0 !important;
+    height: 70vh !important;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+
+h2 {
+
+    text-align: center;
+}
+
+#display-jadwal {
+    display: grid;
+    gap: 10px;
+}
+
+.data-jadwal {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 70vw;
+    min-width: 500px;
+    padding: 10px 20px;
+}
+
+.data-jadwal p {
+    text-align: center;
+    color: black;
+}
+
+#form-vaksin {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    height: 150px;
+    gap: 10px;
+}
+
+#form-vaksin input {
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 3em;
+    box-sizing: border-box;
+}
+
+
+#form-vaksin input[type="submit"] {
+    grid-column: 1/span 2;
+}
+
+#form-vaksin input[type="submit"] {
+    margin-top: 100px;
+    background-color: #FCE786;
+    color: #E67235;
+}
+
+.data-perioda {
+    background-color: white;
+    /* width: 50vw; */
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 3fr 1fr;
+    line-height: 30px;
+    padding: 5px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.data-perioda i {
+    color: #000;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.data-perioda span {
+    color: #000;
+    font-size: 16pt;
+    margin-top: 15px;
+}
+
+.data-perioda p {
+    color: #000;
+    font-size: 16pt;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+/* .bg-penuh {
+    background-color: red !important;
+} */
+
+.data-perioda input {
+    margin-top: 25px;
+}
+
+#daftar-perioda {
+    height: 50vh;
+    overflow: auto;
+}
+
+
+
+#form-perioda input[type="submit"] {
+    background-color: #FCE786;
+    color: #E67235;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18pt;
+    padding: 10px 15px;
+    margin-left: 45%;
+
+}
+
+#vaksinKe {
+    color: black;
+}
+
+#tanggalVaksin {
+    color: black;
+}
+
+.status {
+    margin-left: -100px;
+}
+
+#statusPTMT {
+    color: black;
+}
+
+#stat {
+    display: none;
+}
+
+#pilih {
+    color: #E67235;
+    font-size: large;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+}

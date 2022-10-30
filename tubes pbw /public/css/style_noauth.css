@@ -1,0 +1,23 @@
+.container {
+  background-image: url("/assets/img/background/bg1.png");
+  max-width: 1000px;
+  width: 80vw;
+  height: 70vh;
+  background-color: #36a1d4;
+  margin-top: 10vh;
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+}
+/* #btn-logout {
+  display: none !important;
+} */
+header {
+  padding: 5px 10px;
+  max-height: 200px;
+  display: grid;
+  justify-content: center;
+}
+main {
+  min-height: 35vh;
+}

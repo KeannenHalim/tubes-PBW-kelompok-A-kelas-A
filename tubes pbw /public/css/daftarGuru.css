@@ -1,0 +1,103 @@
+#hapus {
+    text-decoration: none;
+    margin: 2px;
+    color: #E67235;
+    grid-area: hapus;
+}
+
+.display {
+    padding: 10px;
+    /* width: 60%; */
+    display: grid;
+    grid-template-areas: "nip nama username kelas kode hapus";
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.wrapper1 {
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    grid-area: nip;
+}
+
+.wrapper2 {
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    grid-area: nama;
+}
+
+.wrapper3 {
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    grid-area: username;
+}
+
+.wrapper4 {
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    grid-area: kelas;
+}
+
+.wrapper5 {
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    grid-area: kode;
+}
+
+
+.second-container {
+    background-color: #77BFE2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.cetak {
+    text-decoration: none;
+    color: #E67235;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.container-menu {
+    background-color: #FCE786;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.menu-wrapper {
+    margin: 30px;
+    display: flex;
+}
+
+#btn-logout {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}

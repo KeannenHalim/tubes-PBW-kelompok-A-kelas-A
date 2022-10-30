@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%= page.title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/dashboard/satpam.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/kepsek.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <nav>
+                <a href="/kepsek"> <img src="/assets/img/infoPTMT.png">Info PTMT</a>
+                <a href="/kepsek/grafik"> <img src="/assets/img/grafikPTMT.png">Grafik PTMT</a>
+            </nav>
+            <div class="head_tabel">
+                <div>periode</div>
+                <div>kelas</div>
+                <div>guru</div>
+                <div>jumlah</div>
+                <div>status</div>
+            </div>
+            <!-- looping dari data jumlah siswa -->
+            <% let today=new Date(); %>
+            <% let date=today.getFullYear()+"-"+(today.getMonth()+1)+"-"+today.getDate(); %>
+            <% for(let i of daftar){ %>
+            <div class="body_tabel">
+                <div>
+                    <%= i.tanggalMulai.toLocaleDateString('id') %> - <%= i.tanggalAkhir.toLocaleDateString('id') %>
+                </div>
+                <div>
+                    <%= i.kelas%>
+                </div>
+                <div>
+                    <%= i.nama %>
+                </div>
+                <div>
+                    <%= i.jumlah %>
+                </div>
+                <% let akhir=i.tanggalAkhir.toLocaleDateString('id'); %>
+                            <% akhir=akhir.split("/").reverse().join("-"); %>
+                                <% if(Date.parse(date) > Date.parse(akhir)){ %>
+                                    <div>Tidak Aktif</div>
+                                    <% }else{ %>
+                                        <div>Aktif</div>
+                                        <% } %>
+            </div>
+        <% } %>
+        </main>
+
+    </div>
+
+    <a href="/logout" id="btn-logout"><i class="fa-solid fa-arrow-right-from-bracket fa-3x fa-flip-horizontal"></i></a>
+    <footer>
+        &copy;Copyright 2022.
+        <abbr
+            title="Elaine Andriana Hosni - 6182001045 , Keannen Renaldo Halim - 6182001007 , Leonard Hans - 6182001011">IT
+            Division Smarty School</abbr>
+    </footer>
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/98be303a1b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

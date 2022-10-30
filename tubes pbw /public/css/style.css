@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  color: #e5e095;
+}
+
+body {
+  background-color: #77bfe2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo_ptmt {
+  min-width: 200px;
+  width: 20vw;
+}
+
+
+#garis_bawah {
+  width: 60vw;
+  height: 20px;
+  background-color: #fce786;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.container {
+  background-image: url("/assets/img/background/bg1.png");
+  max-width: 1000px;
+  width: 90vw;
+  height: 90vh;
+  background-color: #36a1d4;
+  margin-top: 3vh;
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}
+
+header {
+  padding: 5px 10px;
+  max-height: 20px;
+  width: 70vw;
+  text-align: left;
+}
+
+main {
+  min-height: 80vh;
+}
+
+footer {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#btn-logout {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#btn-logout i {
+  color: black;
+}
+
+nav {
+  display: grid;
+  gap: 10pxs;
+  grid-template-columns: 3fr 3fr 3fr;
+  margin-left: 7vw;
+  box-sizing: border-box;
+}
+
+nav img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 80px;
+}
+
+nav a {
+  text-align: center;
+  color: black;
+
+  text-decoration: none;
+}
+
+nav a i {
+  color: black;
+  vertical-align: middle;
+  margin-right: 10px;
+}

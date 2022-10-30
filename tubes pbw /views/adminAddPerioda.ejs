@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/tambahperioda.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+    <div class="second-container">
+        <div class="menu-wrapper">
+            <span class="container-menu">
+                <i class="fa-solid fa-file-circle-plus"></i>
+                <a href="/add_perioda" class="menu">Tambah Perioda</a>
+            </span>
+            <span class="container-menu">
+                <i class="fa-solid fa-calendar-days"></i>
+                <a href="/daftar_perioda" class="menu">Daftar Perioda</a>
+            </span>
+            <span class="container-menu">
+                <i class="fa-solid fa-database"></i>
+                <a href="/kelola_data" class="menu">Kelola Data</a>
+            </span>
+        </div>
+        <form method="post" action="/add_perioda">
+            <div class="form-wrapper">
+                <div class="ket-container">
+                    <span class="ket">Kapasitas</span>
+                    <input type="text" name="kapasitas" placeholder="dalam persen (%)" class="inuser" id="kapasitas">
+                </div>
+                <div class="ket-container">
+                    <span class="ket">Tanggal Mulai Daftar</span>
+                    <input type="date" name="tgl_mulai_dftr" class="inuser">
+                </div>
+                <div class="ket-container">
+                    <span class="ket">Tanggal Akhir Daftar</span>
+                    <input type="date" name="tgl_akhir_dftr" class="inuser">
+                </div>
+                <div class="ket-container">
+                    <span class="ket">Tanggal Mulai Perioda</span>
+                    <input type="date" name="tgl_mulai_perioda" class="inuser">
+                </div>
+                <div class="ket-container">
+                    <span class="ket">Tanggal Mulai Perioda</span>
+                    <input type="date" name="tgl_akhir_perioda" class="inuser">
+                </div>
+                <button class="but">submit</button>
+            </div>
+        </form>
+        <% if(cek===false){ %>
+            <p style="color:red;">Ada input yang salah</p>
+            <% } %>
+            <a href="/logout" id="btn-logout"><i class="fa-solid fa-arrow-right-from-bracket fa-3x fa-flip-horizontal"></i></a>
+    </div>
+    
+        
+    
+    
+    
+</body>
+
+</html>

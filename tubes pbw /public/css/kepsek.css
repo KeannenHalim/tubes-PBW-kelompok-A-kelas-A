@@ -1,0 +1,31 @@
+nav {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+nav img {
+    height: 100px;
+    vertical-align: middle;
+}
+
+.body_tabel,
+.head_tabel {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+
+}
+
+.body_tabel div,
+.head_tabel div {
+    color: black;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.head_tabel div {
+    background-color: grey;
+    border-radius: 10px;
+    font-size: 20pt;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%= page.title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dashboard/siswa.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/siswa/vaksin"> <img src="/assets/img/suntikan.png">Vaksin</a>
+        <a href="/siswa"> <img src="/assets/img/calendar.png">Jadwal</a>
+        <a href="/siswa/perioda"> <img src="/assets/img/jadwal.png">Perioda</a>
+    </nav>
+    <div class="container">
+        <main>
+            <h3>Status PTMT</h3>
+            <form action="/siswa/periodaStatus" method="POST" id="formUbahStatus">
+
+                <div>
+                    <input type="radio" name="status" value="ya" i id="ya" <%="" //ambil dari db%>>
+                    <label for="ya">Ya</label>
+                </div>
+                <div>
+                    <input type="radio" name="status" value="tidak" <%="checked" //ambil dari db%> >
+                    <label for="tidak">Tidak</label>
+                </div>
+                <input type="submit" value="submit">
+            </form>
+
+        </main>
+    </div>
+
+    <a href="/logout" id="btn-logout"><i class="fa-solid fa-arrow-right-from-bracket fa-3x fa-flip-horizontal"></i></a>
+    <footer>
+        &copy;Copyright 2022.
+        <abbr
+            title="Elaine Andriana Hosni - 6182001045 , Keannen Renaldo Halim - 6182001007 , Leonard Hans - 6182001011">IT
+            Division Smarty School</abbr>
+    </footer>
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/98be303a1b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

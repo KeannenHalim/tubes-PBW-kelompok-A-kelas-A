@@ -1,0 +1,73 @@
+main {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#garis_bawah_header {
+    width: 50vw;
+    height: 20px;
+    background-color: #fce786;
+    border-radius: 25px;
+}
+
+.data-mengajar {
+    color: #000;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin: 3px;
+    width: 90%;
+}
+
+.data-mengajar span {
+    color: #000;
+    font-size: 20pt;
+    padding-top: 10px;
+}
+
+.data-mengajar i {
+    color: #000;
+    vertical-align: middle;
+}
+
+.daftar_siswa_btn {
+    background-color: #fce786;
+    color: #E67235;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 10vw;
+}
+
+.container {
+    background-image: url("/assets/img/background/bg1.png");
+    max-width: 1000px;
+    width: 90vw;
+    height: 90vh;
+    background-color: #36a1d4;
+    margin-top: 3vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+header {
+    margin: 10px;
+}
